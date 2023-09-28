@@ -30,21 +30,6 @@
           </div>
           </button>
       </nav>
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputCity" class="form-label">Enter your city</label>
-          <input type="text" class="form-control">
-        </div>
-        <div class="form-check">
-          <label class="form-check-label">Sign up for newsletter?</label>
-          <input type="checkbox" class="form-check-input">
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
         <a class="navbar-brand" href="cities.html">A Few Cities</a>
         <h1>Visit cities with Aarthi Reddy Tumu</h1>
         <div class="row">
@@ -64,7 +49,7 @@
             <div class="col-md">AMRITSAR</div>
         </div>
         <p>col-md breaks first, because col-md takes windows-width size of >= 768px, if its less than that it breaks into a row and in terms of col-sm, it takes windows width size of >= 576px</p>
-        <div class="image">
+        <div class="container">
             <h4>TIRUPATI</h4>
             <img src="tirupati.jpg" class="img-fluid" width="400" height="400" alt="TIRUPATI">
             <h4>MADURAI</h4>
@@ -72,7 +57,7 @@
             <h4>AMRITSAR</h4>
             <img src="Amritsar.jpg" class="img-fluid" width="400" height="400" alt="Amritsar">
         </div>
-        <div class="image">
+        <div class="container">
             <h4>TIRUPATI</h4>
             <img src="tirupati.jpg" class="img-thumbnail" alt="TIRUPATI">
             <h4>MADURAI</h4>
@@ -144,8 +129,8 @@
             <button type="button" class="btn btn-success">A</button>
           </div>
           <div class="btn-group" role="group" aria-label="letters">
-            <button type="button" class="btn btn-alert">U</button>
-            <button type="button" class="btn btn-alert">A</button>
+            <button type="button" class="btn btn-warning">U</button>
+            <button type="button" class="btn btn-warning">A</button>
           </div>
           <div class="btn-group" role="group" aria-label="letters">
             <button type="button" class="btn btn-danger">U</button>
@@ -202,12 +187,27 @@
       </div>
      </div>
      <div class="card">
-      <img src="Amritsar.jpg">
+      <img src="Amritsar.jpg" class="card-img-top">
       <div class="card-body">
         <h5 class="card-title">Amritsar</h5>
         <p class="card-text">Amritsar is a city in the northwestern Indian state of Punjab, 28 kilometers from the border with Pakistan. At the center of its walled old town, the gilded Golden Temple (Harmandir Sahib) is the holiest gurdwara (religious complex) of the Sikh religion. </p>
         <a href="https://en.wikipedia.org/wiki/Amritsar" class="btn btn-primary">Wikipedia Link</a>
       </div>
      </div>
+     <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputCity" class="form-label">Enter your city</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">Sign up for newsletter?</label>
+        <input type="checkbox" class="form-check-input">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
     </body>
 </html>
