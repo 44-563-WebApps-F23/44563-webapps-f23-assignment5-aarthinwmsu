@@ -11,28 +11,57 @@
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
     <body>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <button class="navbar-toggle">
+          <div class="collapse navbar-collapse id">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-link active">
+                <a href="basic.html">Basic</a>
+              </li>
+              <li class="nav-link active">
+                <a href="advanced.html">Advanced</a>
+              </li>
+            </ul>
+          </div>
+          </button>
+      </nav>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputCity" class="form-label">Enter your city</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">Sign up for newsletter?</label>
+          <input type="checkbox" class="form-check-input">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+        <a class="navbar-brand" href="cities.html">A Few Cities</a>
         <h1>Visit cities with Aarthi Reddy Tumu</h1>
         <div class="row">
-            <div class="col-sm-2">
-            T
-            U
-            M
-            U
-            A
-            A
-            </div>
+          <div class="col-sm-2">T</div>
+          <div class="col-sm-2">U</div>
+            <div class="col-sm-2">M</div>
+            <div class="col-sm-2">U</div>
+            <div class="col-sm-2">A</div>
+            <div class="col-sm-2">A</div>
         </div>
         <div class="row">
-            <div class="col-md">
-            TIRUPATI
-            UTAH
-            MADURAI
-            UDUPI
-            ARUNACHALAM
-            AMRISTAR
-            </div>
+            <div class="col-md">TIRUPATI</div>
+            <div class="col-md">UTAH</div>
+            <div class="col-md">MADURAI</div>
+            <div class="col-md">UDUPI</div>
+            <div class="col-md">ARUNACHALAM</div>
+            <div class="col-md">AMRISTAR</div>
         </div>
         <p>col-md breaks first, because col-md takes windows-width size of >= 768px, if its less than that it breaks into a row and in terms of col-sm, it takes windows width size of >= 576px</p>
         <div class="image">
@@ -147,15 +176,17 @@
       U
       </button>
     </div> -->
-    <div class="dropdown">
-      <button class="btn btn-alert dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <a href="basic.html">Basic HTML Page</a>
-      </button>
+    <div class="dropdown show">
+      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown link
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="basic.html">Basic HTML Page</a>
+        <a class="dropdown-item" href="advanced.html">Advanced HTML Page</a>
+      </div>
     </div>
-    <div class="dropdown">
-      <button class="btn btn-alert dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <a href="advanced.html">Advanced HTML Page</a>
-      </button>
-    </div>
+    <!-- `<div class="card"></div>
+     <div class="card"></div>
+     <div class="card"></div> -->
     </body>
 </html>
